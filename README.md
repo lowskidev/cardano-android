@@ -5,19 +5,13 @@ Follow these instructions to get cardano-node on your Android phone.
 
 Install termux on you Android phone.
 
-Open termux enter the command: 
+Open termux enter the following command: 
 
-First we need to make sure your termux is up to date:
+curl https://raw.githubusercontent.com/lowskidev/cardano-android/master/setup.sh | bash
 
-`pkg update -y && pkg install git`
+Let this run for a little bit, it will install Debian and download all th cardno node files.
 
-Now we clone this repo
-`git clone https://github.com/lowskidev/cardano-android.git`
-
-and now we run the automated setup for debian
-`./setup.sh`
-
-Now you should see a message about debian launching in 10 seconds,
+When it's done you should see a message about debian launching in 10 seconds,
 and you will need two more commands to get everything setup and going.
 
 Those commands are:
@@ -25,4 +19,4 @@ Those commands are:
 and
 `first-setup.sh`
 
-after this your node should be ready to go.
+If it all goes well it should automatically start the cardano-node
