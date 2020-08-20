@@ -7,7 +7,7 @@ Install termux on you Android phone.
 
 Open termux enter the following command: 
 
-curl https://raw.githubusercontent.com/lowskidev/cardano-android/master/setup.sh | bash
+`curl https://raw.githubusercontent.com/lowskidev/cardano-android/master/setup.sh | bash`
 
 Let this run for a little bit, it will install Debian and download all th cardno node files.
 
