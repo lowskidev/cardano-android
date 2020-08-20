@@ -1,8 +1,7 @@
-
-cd ~/ &&
-mkdir cardano &&
-cd cardano &&
-pkg update -y && pkg install curl proot tar wget -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian.sh | bash &&
+pkg update -y && pkg install curl proot tar wget -y &&
+mkdir ~/cardano &&
+cd ~/cardano &&
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian.sh | bash &&
 cd ~/cardano/debian-fs/root/ &&
 mkdir node &&
 cd node &&
