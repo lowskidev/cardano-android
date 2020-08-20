@@ -10,6 +10,7 @@ wget https://lowski.dev/cardano-android.tar.gz &&
 tar xvf cardano-android.tar.gz &&
 echo "in 10 seconds your debian shell will open." &&
 echo "please use the following commands next: " &&
+echo "cardano/start-debian.sh" &&
 echo "cd node" &&
 echo "./first-setup.sh" &&
-bash ~/cardano/start-debian.sh
+sh cardano/start-debian.sh
