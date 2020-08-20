@@ -13,4 +13,5 @@ echo "in 10 seconds your debian shell will open." &&
 echo "please use the following commands next: " **
 echo "cd node" &&
 echo "./first-setup.sh" &&
+sleep 10
 ./start-debian.sh
