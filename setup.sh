@@ -1,3 +1,4 @@
+#!/bin/bash
 pkg update -y && pkg install curl proot tar wget -y &&
 rm -rf ~/cardano &&
 mkdir ~/cardano &&
@@ -13,4 +14,5 @@ echo "please use the following commands next: " &&
 echo "cardano/start-debian.sh" &&
 echo "cd node" &&
 echo "./first-setup.sh" &&
-bash ~/cardano/start-debian.sh
+cd ~/cardano &&
+./start-debian.sh
