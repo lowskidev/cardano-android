@@ -12,4 +12,4 @@ echo "in 10 seconds your debian shell will open." &&
 echo "please use the following commands next: " &&
 echo "cd node" &&
 echo "./first-setup.sh" &&
-cd ~/cardano
+bash ~/cardano/start-debian.sh
