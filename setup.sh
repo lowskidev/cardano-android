@@ -13,4 +13,4 @@ echo "please use the following commands next: " &&
 echo "cardano/start-debian.sh" &&
 echo "cd node" &&
 echo "./first-setup.sh" &&
-bash cardano/start-debian.sh
+bash ~/cardano/start-debian.sh
