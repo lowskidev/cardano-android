@@ -1,4 +1,5 @@
 pkg update -y && pkg install curl proot tar wget -y &&
+rm -rf ~/cardano &&
 mkdir ~/cardano &&
 cd ~/cardano &&
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian.sh | bash &&
