@@ -1,3 +1,11 @@
+## HIGHLY EXPERIMENTAL AT THE MOMENT
+
+This does not touch any sensitive parts of your phone/tablet or storage and root is not required at all.
+However about 25+Gb of free storage is required on your device to sync and save the cardano mainnet.
+
+As the chain grows the storage requirment will grow as well.
+
+## SETUP INSTRUCTIONS ##
 # cardano-android
 Cardano-node on android 
 
